@@ -24,7 +24,7 @@ debug.log
 dist/
 build/
 coverage/
-\
+
 # AWS & Cloud
 .aws/
 *.pem

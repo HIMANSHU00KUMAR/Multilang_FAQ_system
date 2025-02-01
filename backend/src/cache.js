@@ -1,8 +1,10 @@
 const Redis = require('redis');
 const config = require('../config');
 
-const client = Redis.createClient({
-  url: config.redisUrl
+
+const client = redis.createClient({
+  host: 'redis',  // Use the service name defined in your docker-compose.yml file
+  port: 6379      // The port Redis is running on
 });
 
 client.on('error', (err) => console.error('Redis Client Error', err));
