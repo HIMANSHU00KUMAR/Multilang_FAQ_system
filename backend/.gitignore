@@ -24,13 +24,7 @@ debug.log
 dist/
 build/
 coverage/
-
-# Docker
-Dockerfile*
-.dockerignore
-docker-compose.yml
-docker-compose.override.yml
-
+\
 # AWS & Cloud
 .aws/
 *.pem
